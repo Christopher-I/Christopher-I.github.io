@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="jQuery.js"></script>
+  <script src="trivia.js"></script>
+  <script src="currentBitcoinPriceDisplay.js"></script>
+  <script src="processedData.js"></script>
+  <script src="APIandDataprocessor.js"></script>
+  <script src="moment.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+  <title>Bitcoin Life-Cycles</title>
+</head>
+<body>
+<span  class = "subtext" id ='trivia' ></span>
+    <!-- <div class="heading" id="price"> -->
+    <!-- <div class="grid-100"> -->
+      <!-- <div class="contained"> -->
+        <div class="grid-100">
+          <!-- <div > -->
+           <!-- <p>Choose Time Period</p> -->
+          </div>
+          <ul class="filter-select">
+
+            <li id = 'button1'><button>2010 to 2013</button></li>
+            <li id = 'button2'><button>2013 to 2017</button></li>
+            <!-- <li id = 'button3'><button>2018 to now</button></li> -->
+            <li id = 'buttonAll'><button>All</button></li>
+          </ul>
+          <div class="container">
+            <span class = "subtext2" >Current Price : </span>
+            <span class = "heading" id ='bitprice' ></span>
+
+
+            <canvas id="myChart"></canvas>
+
+          </div>
+
+          </div>
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
+    <!-- <p >Trivia</p> -->
+
+      </div>
+<script src="charts.js"></script>
+</script>
+<span  class = "subtext" >Powered by CoinDesk</span>
+</body>
+
+</html>
