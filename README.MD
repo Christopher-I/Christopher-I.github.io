@@ -5,4 +5,4 @@ Most investors in the crypt market hold bitcoin and I believe most people want a
 to easily see the behaviour of the bitcoin market so they can make better decisions.
 
 I hope this is helpful to someone out there, please leave some feedback, so I can work on improving
-this App over time.
+this App over time. Thanks
